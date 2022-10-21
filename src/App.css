@@ -1,7 +1,3 @@
-.App {
-  text-align: center;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -13,8 +9,11 @@
   }
 }
 
+.className {
+  font-family: Lato;
+}
 .App-header {
-  background-color: #282c34;
+  background-color: #020105;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,7 +24,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #000101;
 }
 
 @keyframes App-logo-spin {
@@ -36,3 +35,10 @@
     transform: rotate(360deg);
   }
 }
+
+
+.filmes {
+  font-family: Lato;
+  text-align: justify;
+}
+
