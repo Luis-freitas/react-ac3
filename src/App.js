@@ -28,7 +28,7 @@ function App() {
           {filmes && filmes.map((camp, index) => (
             <div className="item-container">
               <p>filmes: <span>{ camp.original_title }</span></p>
-              <p>Status: <span>{ camp.realease_date }</span></p>
+              
 
               <img src={`https://image.tmdb.org/t/p/w500${camp.backdrop_path}`}></img>
             </div>
